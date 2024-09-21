@@ -14,7 +14,7 @@ export default function Card({ title, image, Glink, Llink, Details }) {
           <h2 className="text-white text-xl font-bold mb-4">{title}</h2>
           <p className="text-white px-1">{Details}</p>
           <div className="flex justify-center space-x-3">
-            <a href={Glink} target="_blank" rel="noopener noreferrer">
+            <a href={Glink}>
               <FaGithub color="white" size="25" />
             </a>
             <a href={Llink} target="_blank" rel="noopener noreferrer">

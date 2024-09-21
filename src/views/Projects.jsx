@@ -37,7 +37,8 @@ export default function Projects() {
             <Card
               title={"Pause Point"}
               image={pausepointImg}
-              Glink={"https://github.com/ndukwesamuel/pausepoint"}
+            //   Glink={"https://github.com/ndukwesamuel/pausepoint"}
+            Glink={"#"}
               Llink={
                 "https://play.google.com/store/apps/details?id=com.pause_point.PausePoint&hl=en"
               }
@@ -48,7 +49,8 @@ export default function Projects() {
             <Card
               title={"WebuyMobile"}
             //   image={eCommerceImg}
-              Glink={"https://github.com/ndukwesamuel/webuymobile"}
+            //   Glink={"https://github.com/ndukwesamuel/webuymobile"}
+            Glink={"#"}
               Details={"An e-commerce app"}
             />
             <Card
