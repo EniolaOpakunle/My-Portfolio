@@ -5,6 +5,7 @@ import eCommerceImg from "../assets/images/e-commerce.jpg";
 import faqImg from "../assets/images/faq.jpg";
 import smoothShuttleImg from "../assets/images/smoothShuttle.webp";
 import pausepointImg from "../assets/images/pausepoint.webp";
+import webuyImg from "../assets/images/webuy.webp";
 
 export default function Projects() {
   return (
@@ -23,7 +24,9 @@ export default function Projects() {
               image={restImg}
               Glink={"https://github.com/EniolaOpakunle/REST_Countries_API"}
               Llink={"https://rest-countries-api-beta-rouge.vercel.app/"}
-              Details={"List of all countries with a map of the geographical area"}
+              Details={
+                "List of all countries with a map of the geographical area"
+              }
             />
             <Card
               title={"E-commerce Product Page"}
@@ -37,8 +40,8 @@ export default function Projects() {
             <Card
               title={"Pause Point"}
               image={pausepointImg}
-            //   Glink={"https://github.com/ndukwesamuel/pausepoint"}
-            Glink={"#"}
+              //   Glink={"https://github.com/ndukwesamuel/pausepoint"}
+              Glink={"#"}
               Llink={
                 "https://play.google.com/store/apps/details?id=com.pause_point.PausePoint&hl=en"
               }
@@ -48,17 +51,21 @@ export default function Projects() {
           <div className="gap-y-12 flex-col flex lg:flex-row justify-center gap-x-10">
             <Card
               title={"WebuyMobile"}
-            //   image={eCommerceImg}
-            //   Glink={"https://github.com/ndukwesamuel/webuymobile"}
-            Glink={"#"}
+              image={webuyImg}
+              //   image={eCommerceImg}
+              //   Glink={"https://github.com/ndukwesamuel/webuymobile"}
+              Glink={"#"}
               Details={"An e-commerce app"}
+              Llink={
+                "https://play.google.com/store/apps/details?id=com.webuyam.webuyam&hl=en"
+              }
             />
             <Card
-              title={"SmoothShuttle"}
-              image={smoothShuttleImg}
+              title={"Cake App"}
+              // image={smoothShuttleImg}
               Glink={""}
               Llink={
-                "https://play.google.com/store/apps/details?id=com.samheart.busapp&hl=en"
+                "#"
               }
             />
 
